@@ -1,0 +1,109 @@
+0000.157 () Opened log file at time: Fri, 27 Mar 2020 07:58:21 +0000 on http://richmonddental.in
+0000.158 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.23 (apache2handler, Windows NT MUSTANG 10.0 build 18363 (Windows 10) AMD64) MySQL: 10.4.8-MariaDB WPLANG: en_US Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.2.23 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 51.8M | 8M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.158 () Free space on disk containing Updraft's temporary directory: 120752.8 MB
+0001.169 () Opened log file at time: Fri, 27 Mar 2020 07:58:24 +0000 on http://richmonddental.in
+0001.186 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.23 (apache2handler, Windows NT MUSTANG 10.0 build 18363 (Windows 10) AMD64) MySQL: 10.4.8-MariaDB WPLANG: en_US Server: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.2.23 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 50M | 6M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0001.187 () Free space on disk containing Updraft's temporary directory: 120752.8 MB
+0001.236 () Ensuring WP_Filesystem is setup for a restore
+0001.240 () WP_Filesystem is setup and ready for a restore
+0001.281 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0001.336 () Entity: db
+0001.336 () restore_backup(backup_file=backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-db.gz, type=db, info=a:0:{}, last_one=)
+0001.338 () Unpacking backup... (backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-db.gz, 0.3 Mb)
+0001.342 () Database successfully unpacked
+0001.344 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.344 () Using direct MySQL access; value of use_mysqli is: 1
+0001.373 () SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0002.306 () Max packet size: 32 MB
+0002.307 () Entering maintenance mode
+0002.307 () Enabling Maintenance mode&#8230;
+0002.309 () Backup of: http://richmonddental.in
+0002.310 () Content URL: http://richmonddental.in/wp-content
+0002.311 () Uploads URL: http://richmonddental.in/wp-content/uploads
+0002.311 () Old table prefix: wp_
+0002.311 () Site information: multisite=0
+0002.312 () New table prefix: wp_
+0002.534 () Processing table (InnoDB): wp_options
+0004.055 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0004.229 () Processing table (InnoDB): wp_users
+0005.933 () Processing table (InnoDB): wp_usermeta
+0006.490 () Processing table (InnoDB): wp_commentmeta
+0007.166 () Processing table (InnoDB): wp_comments
+0007.980 () Processing table (InnoDB): wp_links
+0008.705 () Processing table (InnoDB): wp_postmeta
+0011.578 () Processing table (InnoDB): wp_posts
+0014.997 () Processing table (InnoDB): wp_term_relationships
+0015.785 () Processing table (InnoDB): wp_term_taxonomy
+0016.820 () Processing table (InnoDB): wp_termmeta
+0019.142 () Processing table (InnoDB): wp_terms
+0021.439 () Processing table (InnoDB): wp_layerslider
+0021.751 () Processing table (InnoDB): wp_layerslider_revisions
+0022.228 () Processing table (InnoDB): wp_revslider_css
+0023.460 () Processing table (InnoDB): wp_revslider_css_bkp
+0024.445 () Database queries processed: 50 in 23.07 seconds
+0024.758 () Processing table (InnoDB): wp_revslider_layer_animations
+0025.368 () Processing table (InnoDB): wp_revslider_layer_animations_bkp
+0026.144 () Processing table (InnoDB): wp_revslider_navigations
+0027.647 () Processing table (InnoDB): wp_revslider_navigations_bkp
+0029.711 () Processing table (InnoDB): wp_revslider_sliders
+0033.329 () Processing table (InnoDB): wp_revslider_sliders_bkp
+0034.079 () Processing table (InnoDB): wp_revslider_slides
+0036.249 () Processing table (InnoDB): wp_revslider_slides_bkp
+0037.310 () Processing table (InnoDB): wp_revslider_static_slides
+0040.373 () Processing table (InnoDB): wp_revslider_static_slides_bkp
+0040.661 () UpdraftPlus Vault: this site has not been connected - check your settings
+0040.762 () Unlocking database and leaving maintenance mode
+0040.763 () Disabling Maintenance mode&#8230;
+0040.764 () Finished: lines processed: 79 in 39.39 seconds
+0040.766 () Cleaning up rubbish...
+0040.949 () Entity: plugins
+0040.950 () restore_backup(backup_file=backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:43:"Y:\xampp\htdocs\richmond/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0040.951 () Unpacking backup... (backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-plugins.zip, 28 MB)
+0040.962 () Unzipping backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-plugins.zip to Y:/xampp/htdocs/richmond/wp-content/upgrade/d9093720/ using UpdraftPlus_ZipArchive, starting index 0
+0044.796 () Unzip progress: 1002 out of 5795 files (6.6 MB, plugins/js_composer/assets/less/backend_shortcodes/vc_tta.less)
+0047.937 () Unzip progress: 2003 out of 5795 files (15.1 MB, plugins/js_composer/include/templates/shortcodes/vc_wp_tagcloud.php)
+0051.913 () Unzip progress: 3004 out of 5795 files (44.3 MB, plugins/revslider/includes/external-sources.class.php)
+0056.207 () Unzip progress: 4005 out of 5795 files (49.8 MB, plugins/revslider/public/assets/assets/svg/hardware/ic_videogame_asset_24px.svg)
+0061.449 () Unzip progress: 5006 out of 5795 files (71.8 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/S3/Exception/InvalidPayerException.php)
+0072.028 () Unzip progress: 5795 out of 5795 files (75.6 MB, plugins/wordpress-database-reset/wp-reset.php)
+0072.056 () Moving old data: filesystem method / updraft_dir is potentially possible
+0072.058 () Moving old data: can potentially use wp_filesystem method / -old
+0072.058 () Moving old data out of the way...
+0072.656 () Top-level entities being moved: akismet, contact-form-7, duplicate-post, force-regenerate-thumbnails, hello.php, index.php, js_composer, LayerSlider, mfn-header-builder, revslider, updraftplus, wordpress-database-reset
+0072.864 () Moving unpacked backup into place...
+0073.833 () Top-level entities being moved: akismet, contact-form-7, duplicate-post, force-regenerate-thumbnails, hello.php, index.php, js_composer, LayerSlider, mfn-header-builder, revslider, updraftplus, wordpress-database-reset
+0073.848 () Cleaning up rubbish...
+0073.925 () Entity: themes
+0073.925 () restore_backup(backup_file=backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-themes.zip, type=themes, info=a:2:{s:4:"path";s:42:"Y:\xampp\htdocs\richmond/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0073.926 () Unpacking backup... (backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-themes.zip, 10 MB)
+0073.928 () Unzipping backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-themes.zip to Y:/xampp/htdocs/richmond/wp-content/upgrade/7f2b1c9a/ using UpdraftPlus_ZipArchive, starting index 0
+0077.666 () Unzip progress: 912 out of 912 files (18.7 MB, themes/twentytwenty/templates/template-full-width.php)
+0077.677 () Moving old data: filesystem method / updraft_dir is potentially possible
+0077.678 () Moving old data: can potentially use wp_filesystem method / -old
+0077.678 () Moving old data out of the way...
+0078.047 () Top-level entities being moved: betheme, index.php, twentynineteen, twentyseventeen, twentysixteen, twentytwenty
+0078.061 () Moving unpacked backup into place...
+0078.345 () Top-level entities being moved: betheme, index.php, twentynineteen, twentyseventeen, twentysixteen, twentytwenty
+0078.351 () Cleaning up rubbish...
+0079.816 () Entity: uploads
+0079.816 () restore_backup(backup_file=backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:43:"Y:\xampp\htdocs\richmond/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0079.818 () Unpacking backup... (backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-uploads.zip, 92.1 MB)
+0079.824 () Unzipping backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-uploads.zip to Y:/xampp/htdocs/richmond/wp-content/upgrade/fa41a992/ using UpdraftPlus_ZipArchive, starting index 0
+0089.231 () Unzip progress: 1002 out of 1656 files (71.8 MB, uploads/2019/01/home_healthy_pic21-1-165x146.png)
+0093.644 () Unzip progress: 1656 out of 1656 files (91.9 MB, uploads/revslider/home_healthy_pic2.png)
+0093.787 () Moving old data: filesystem method / updraft_dir is potentially possible
+0093.788 () Moving old data: can potentially use wp_filesystem method / -old
+0093.788 () Moving old data out of the way...
+0094.086 () Error message: Could not move the files into place. Check your file permissions.
+0094.086 () Error data (move_failed): Y:\xampp\htdocs\richmond/wp-content/uploads/2018 -> Y:\xampp\htdocs\richmond/wp-content/updraft/uploads-old/2018
+0094.086 () uploads: Y:/xampp/htdocs/richmond/wp-content/uploads: deleting contents (as attempts to copy failed)
+0098.380 () Moving unpacked backup into place...
+0098.974 () Cleaning up rubbish...
+0099.408 () Entity: others
+0099.408 () restore_backup(backup_file=backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-others.zip, type=others, info=a:2:{s:4:"path";s:35:"Y:\xampp\htdocs\richmond/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0099.409 () Unpacking backup... (backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-others.zip, 0 MB)
+0099.413 () Unzipping backup_2020-03-27-0214_richmonddentalin_1e5da0b996c8-others.zip to Y:/xampp/htdocs/richmond/wp-content/upgrade/3c7b0b12/ using UpdraftPlus_ZipArchive, starting index 0
+0099.457 () Unzip progress: 1 out of 1 files (28 B, index.php)
+0099.469 () Cleaning up rubbish...
+0099.655 () Restore successful!
+0099.656 () Restore successful
